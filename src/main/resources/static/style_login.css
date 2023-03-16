@@ -1,0 +1,234 @@
+body, html {
+    height: 100%;
+    display: grid;
+    background-image: url("https://cdn.domdesign.com/users/Luma/Site/sites/luma.si/modules/Domino/Pictures/wedding-7_w1080.jpg?i=1623931440");
+    overflow: hidden;
+    background-size: cover;
+    
+    /* Control the height of the image */
+    height: 720px;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* .bg-img { 
+    background-image: url("/beige.jpg"); 
+    overflow: hidden;
+    background-size: cover;
+    
+    /* Control the height of the image 
+    height: 720px;
+    width: 100%;
+  
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }*/
+  /*Address box style*/
+
+  .user-details .input input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add styles to the form container */
+  .container{
+    width:35%;
+    position: relative;
+    height: 80%;
+    top:0%;
+    left:60%;
+    background-color: rgba(228, 223, 216, 0.534);
+    padding: 10% 5%;
+    padding-top: 70px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 1000;
+    position: relative;
+  }
+  .container .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    width:210%;
+    font-family: Verdana;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: Verdana
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details .input-box{
+    display:block;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #FBAB7E;
+  }
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   }
+   form .category{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   form .category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+   #dot-1:checked ~ .category label .one,
+   #dot-2:checked ~ .category label .two,
+   #dot-3:checked ~ .category label .three{
+     background: #40d6d6;
+     border-color: #d9d9d9;
+   }
+   form input[type="radio"]{
+     display: none;
+   }
+   form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   .button input{
+     height: 50px;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background-color:rgb(171, 94, 13);
+     margin-top:30px;
+    /*background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); -->
+   */
+   }
+    .but input{
+    margin-top: 13%;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color:black;
+  /*background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);*/
+  
+  }
+   .button input:hover{
+    /* transform: scale(0.99); */
+    background-color: #702f09;
+  /*background-image: linear-gradient(250deg, #27f0e6 0%, #3ee7a6 100%);*/
+   
+    }
+
+    .but input:hover{
+      /* transform: scale(0.99); */
+      background-color: #d7580fd8;
+      height: 30px;
+      /*background-image: linear-gradient(250deg, #f0ba27 0%, #e7983e 100%);*/
+     
+      }
+   @media(max-width: 584px){
+   .container{
+    max-width: 100%;
+  }
+  form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .category{
+      width: 100%;
+    }
+    .content form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 5px;
+    }
+    }
+    @media(max-width: 459px){
+    .container .content .category{
+      flex-direction: column;
+    }
+  }
+  
